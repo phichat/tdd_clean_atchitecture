@@ -1,6 +1,6 @@
 part of 'signin_bloc.dart';
 
-sealed class SigninEvent extends Equatable {
+class SigninEvent extends Equatable {
   final String username, password;
   final bool rememberMe;
 
